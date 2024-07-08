@@ -33,15 +33,32 @@
       font-weight: 700;
       color: #751097;
     }
-    #cover{
-      background-color:#fae7f2 ;
-    }
+    #cover {
+    background-color: rgba(250, 231, 242, 0.8); /* Adjust the color and opacity as needed */
+    background-image: url(img/try.jpg);
+    background-blend-mode: overlay; /* Ensures the shade blends with the background image */
+    background-position: no-repeat;
+    background-size: cover;
+  }
+  .goal-header{
+    font-weight: 700;
+    color: #751097;
+    font-size: 50px;
+  }
+  .goal-paragraph{
+    font-weight: 700;
+    color: #86469C;
+    font-size: 20px;
+  }
+  
+
+
 
   </style>
 </head>
 <body>
   <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="img/logo.png" width="150px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,25 +85,76 @@
     
     <!-- Home (Cover) Section -->
     <section id="cover" class="py-5 text-center">
-      <div class="container">
+      <div class="container mt-5 pt-5">
         <div class="row">
           <div class="col-md-6 text-start mt-5">
             <h1 class="about-header">Welcome to Sexual Self</h1>
             <p class="about-paragraph">Sexual Self is a Human Sexuality such as diversity of sexual behaviour, understanding the human sexual response, identifying sexual orientations and differentiating love from lust. Human Sexuality is influenced by physical, psychological, spiritual, and cultural factor. As sexual beings, people are identified by gender, role, assignment, and perception.</p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 col-sm-6 col-lg-6">
             <img src="img/welcomeimage.png">
           </div>
+
         </div>
       </div>
     </section>
-    
+
     <!-- Our Goal Section -->
-    <section id="goal" class="py-5 text center bg-light">
-      <div class="container">
-        <h2>Our Goal</h2>
-        <p>Insert your goal statement here...</p>
+    <section id="goal" class=" text center bg-light">
+      <div class="label-bar">
+        <svg width="100%" height="100%" viewBox="0 0 1440 200" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+              <stop offset="5%" stop-color="#9900ef"></stop>
+              <stop offset="95%" stop-color="#f78da7"></stop>
+            </linearGradient>
+          </defs>
+          <path d="M 0,200 
+                   C 120,60 240,60 360,100 
+                   C 480,140 600,140 720,100 
+                   C 840,60 960,60 1080,100 
+                   C 1200,140 1320,140 1440,100 
+                   L 1440,200 
+                   L 0,200 
+                   Z" 
+                stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"
+                transform="rotate(180 720 100)">
+          </path>
+        </svg>
       </div>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-lg-6">
+              <img src="img/goalimage.png" alt="">
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-6 text-center">
+              <h1 class="goal-header mb-3">Our Goals</h1>
+              <p class="goal-paragraph">Our goal is to empower readers by providing comprehensive, insightful, and accessible information that helps them understand, explore, and embrace their sexual self. We aim to create a safe and inclusive space where individuals can learn, grow, and feel confident in their journey towards sexual self-awareness and well-being.</p>
+            </div>
+          </div>
+      </div>
+      <div class="label-bar">
+        <svg width="100%" height="100%" viewBox="0 0 1440 200" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+              <stop offset="5%" stop-color="#9900ef"></stop>
+              <stop offset="95%" stop-color="#f78da7"></stop>
+            </linearGradient>
+          </defs>
+          <path d="M 0,200 
+                   C 120,60 240,60 360,100 
+                   C 480,140 600,140 720,100 
+                   C 840,60 960,60 1080,100 
+                   C 1200,140 1320,140 1440,100 
+                   L 1440,200 
+                   L 0,200 
+                   Z" 
+                stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0">
+          </path>
+        </svg>
+      </div>
+      
+
     </section>
     
     <!-- Our Features Section -->
