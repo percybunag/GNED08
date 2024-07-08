@@ -18,12 +18,13 @@
   }
   .nav-link {
     font-weight: 700;
-    color: #86469C;
+    color: white;
   }
   .navbar {
     margin-top: 0;
     top: 0;
     width: 100%;
+    background-color: #751097;
   }
   .about-paragraph {
     font-size: 20px;
@@ -61,7 +62,7 @@
   }
   .header {
     background-color: #FB9AD1;
-    color: #74019B;
+    color: white;
   }
   .card {
     border-radius: 30px;
@@ -90,15 +91,30 @@
   }
   .card-title {
     font-weight: 900;
+    color: #74019B;
   }
   .card-title-2 {
     font-weight: 800;
+    color: #74019B;
   }
   .card-text {
     font-weight: 700;
+    color: #74019B;
   }
   #goal {
     background-color: #74019B;
+  }
+  #importance{
+    background-color:#86469C;
+  }
+  .importance-header{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .importance-paragraph{
+    font-size: 20px;
+    color: white;
   }
 </style>
 <body>
@@ -185,7 +201,7 @@
       <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-6 col-lg-6">
-              <img src="img/goalimage.png" alt="">
+              <img src="img/goalimage.png" width="80%">
             </div>
             <div class="col-md-6 col-sm-6 col-lg-6 text-center">
               <h1 class="goal-header mb-3">The Goal:</h1>
@@ -217,7 +233,7 @@
     </section>
     
     <!-- Our Features Section -->
-    <section id="features" class="bg-light">
+    <section id="features" class="bg-light pb-5">
       <div class="header py-5">
         <h1 class="features-header text-center mb-2">Sexual Self Features</h1>
         <p class="features-paragraph text-center mb-2 px-5">Discover the key features that make Sexual Self a valuable resource for college students. From educational content to confidential support, we offer a range of services to cater to your needs.</p>
@@ -262,13 +278,65 @@
     </section>
     
     <!-- Importance of Knowledge Section -->
-    <section id="importance" class="py-5">
+    <section id="importance" class="">
+      <div class="label-bar">
+        <svg width="80%" height="100%" viewBox="0 0 1440 200" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+              <stop offset="5%" stop-color="#9900ef"></stop>
+              <stop offset="95%" stop-color="#f78da7"></stop>
+            </linearGradient>
+          </defs>
+          <path d="M 0,200 
+                   C 120,60 240,60 360,100 
+                   C 480,140 600,140 720,100 
+                   C 840,60 960,60 1080,100 
+                   C 1200,140 1320,140 1440,100 
+                   L 1440,200 
+                   L 0,200 
+                   Z" 
+                stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0"
+                transform="rotate(180 720 100)">
+          </path>
+        </svg>
+      </div>
+      
       <div class="container">
-        <h2>Importance of Knowledge in Sexual Self</h2>
-        <p>Insert content about the importance of knowledge in sexual self here...</p>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-lg-6">
+              <h2 class="text-start importance-header mb-3">Importance of Knowledge in Sexual Self</h2>
+              <p class="text-start importance-paragraph mt-3">Sexual identity and orientation are fundamental components, involving an individual's self-perception and attraction patterns, which are crucial for self-acceptance and mental well-being. Recognizing one's sexual orientation helps in navigating personal relationships and societal interactions effectively, as discussed by the American Psychological Association (APA).
+
+              </p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-lg-6">
+            <img src="img/importance.png" class="" width="60%">
+          </div>
+        </div>
+      </div>
+      <div class="label-bar d-flex align-items-end justify-content-end">
+        <svg width="80%" height="100%" viewBox="0 0 1440 200" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+              <stop offset="5%" stop-color="#9900ef"></stop>
+              <stop offset="95%" stop-color="#f78da7"></stop>
+            </linearGradient>
+          </defs>
+          <path d="M 0,200 
+                   C 120,60 240,60 360,100 
+                   C 480,140 600,140 720,100 
+                   C 840,60 960,60 1080,100 
+                   C 1200,140 1320,140 1440,100 
+                   L 1440,200 
+                   L 0,200 
+                   Z" 
+                stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0">
+          </path>
+        </svg>
       </div>
     </section>
-    
+
+  </section>
     <!-- Sexual Health And Well Being Section -->
     <section id="health" class="py-5 bg-light">
       <div class="container">
