@@ -59,30 +59,50 @@
 </head>
 <body>
   <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" width="150px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#goal">Learn More</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#features">Risk Factors</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#importance">References</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/logo.png" width="150px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <!-- Dropdown Menu: Learn More -->
+          <li class="nav-item dropdown mx-4">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLearnMore" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Learn More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownLearnMore">
+              <li><a class="dropdown-item" href="#goal">Safe Sex Practices</a></li>
+              <li><a class="dropdown-item" href="#features">Primary Sex Characteristics</a></li>
+              <li><a class="dropdown-item" href="#importance">Consent and Healthy Relationships</a></li>
+              <li><a class="dropdown-item" href="#importance">Communication Tips for Relationships</a></li>
+              <!-- Add more dropdown items as needed -->
+            </ul>
+          </li>
+          <!-- End Dropdown Menu: Learn More -->
+          <!-- Dropdown Menu: Risk Factors -->
+          <li class="nav-item dropdown mx-4">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownRiskFactors" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Risk Factors
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownRiskFactors">
+              <li><a class="dropdown-item" href="#risk-factor-1">Disease</a></li>
+              <!-- Add more dropdown items for risk factors -->
+            </ul>
+          </li>
+          <!-- End Dropdown Menu: Risk Factors -->
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="#references">References</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
+  
     
     <!-- Home (Cover) Section -->
     <section id="cover" class="py-5 text-center">
